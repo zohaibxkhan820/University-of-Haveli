@@ -1,6 +1,5 @@
 import { Menu, X, ChevronDown } from "lucide-react";
 import { useState } from "react";
-import logo from "@/assets/A.png";
 
 
 export function Navbar() {
@@ -79,7 +78,7 @@ export function Navbar() {
               {/* Logo Box */}
               <div className="bg-white rounded-full p-1 h-[70px] w-[70px] flex items-center justify-center shadow-sm shrink-0">
                 <img
-                  src={logo}
+                  src={`${import.meta.env.BASE_URL}A.png`}
                   alt="UOH"
                   className="h-20 w-20 rounded-full object-contain"
                 />

@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 type Fact = { id: number; number: string; label: string };
 
 const DEFAULT_FACTS: Fact[] = [
-  { id: 1, number: "Total Departments", label: "24" },
+  { id: 1, number: "24", label: "Total Departments" },
   { id: 2, number: "1,469", label: "National Outreach Program Students" },
   { id: 3, number: "37", label: "Student Societies" },
   { id: 4, number: "1,285", label: "Alumni" },

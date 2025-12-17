@@ -1,4 +1,7 @@
 import { Quote } from "lucide-react";
+import C from "../assets/Chancellor.jpg";
+import VC from "../assets/VC.jpeg";
+
 
 export function LeadershipMessages() {
   return (
@@ -11,7 +14,7 @@ export function LeadershipMessages() {
               <div className="relative flex-shrink-0">
                 <div className="w-32 h-32 rounded-xl overflow-hidden shadow-xl">
                   <img
-                    src="./assets/Chancellor.jpg"
+                    src={C}
                     alt="Chancellor"
                     className="w-full h-full object-cover"
                   />
@@ -51,7 +54,7 @@ export function LeadershipMessages() {
               <div className="relative flex-shrink-0">
                 <div className="w-32 h-32 rounded-xl overflow-hidden shadow-xl">
                   <img
-                    src="./assets/VC.jpeg"
+                    src={VC}
                     alt="Vice Chancellor"
                     className="w-full h-full object-cover"
                   />

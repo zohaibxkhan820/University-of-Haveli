@@ -1,5 +1,6 @@
 import { BookOpen, Lightbulb, Award, TrendingUp } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+import researchImage from "../assets/research2.jpeg";
 
 const researchAreas = [
   {
@@ -36,7 +37,7 @@ export function ResearchSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-12">
           <div className="rounded-2xl overflow-hidden shadow-xl">
             <ImageWithFallback
-              src="./assets/research2.jpeg"
+              src=  {researchImage}
               alt="Research Lab"
               className="w-full h-[400px] object-cover"
             />

@@ -2,40 +2,48 @@ import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
+import img1 from "../assets/media1.jpeg";
+import img2 from "../assets/media2.jpeg";
+import img3 from "../assets/media3.jpeg";
+import img4 from "../assets/media4.jpeg";
+import img5 from "../assets/media5.jpeg";
+import img6 from "../assets/media6.jpeg";
+import img7 from "../assets/media7.jpeg";
+
 const galleryImages = [
   {
     id: 1,
-    src: "./assets/media1.jpeg",
+    src: img1,
     title: "Library"
   },
   {
     id: 2,
-    src: "./assets/media2.jpeg",
+    src: img2,
     title: "Students"
   },
   {
     id: 3,
-    src: "./assets/media3.jpeg",
+    src: img3,
     title: "Laboratory"
   },
   {
     id: 4,
-    src: "./assets/media4.jpeg",
+    src:  img4,
     title: "Sports"
   },
   {
     id: 5,
-    src: "./assets/media5.jpeg",
+    src: img5,
     title: "Ceremony"
   },
   {
     id: 6,
-    src: "./assets/media6.jpeg",
+    src: img6,
     title: "Campus"
   },
   {
     id: 7,
-    src: "./assets/media7.jpeg",
+    src: img7,
     title: "Aerial View"
   }
 ];

@@ -1,19 +1,23 @@
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
+import slide1 from "../assets/coursel5.jpeg";
+import slide2 from "../assets/coursel2.jpeg";
+import slide3 from "../assets/coursel1.jpeg";
+
 const slides = [
   {
-    image: "./assets/coursel5.jpeg",
+    image: slide1,
     title: "Welcome to University of Haveli",
     subtitle: "Shaping Tomorrow's Leaders Today"
   },
   {
-    image: "./assets/coursel2.jpeg",
+    image: slide2,
     title: "World-Class Education",
     subtitle: "Excellence in Teaching and Research"
   },
   {
-    image: "./assets/coursel1.jpeg",
+    image: slide3,
     title: "University Leading towards Success",
     subtitle: "Empowering Students for the Future"
   }

@@ -3,17 +3,17 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const slides = [
   {
-    image: "/assets/coursel5.jpeg",
+    image: "./assets/coursel5.jpeg",
     title: "Welcome to University of Haveli",
     subtitle: "Shaping Tomorrow's Leaders Today"
   },
   {
-    image: "/assets/coursel2.jpeg",
+    image: "./assets/coursel2.jpeg",
     title: "World-Class Education",
     subtitle: "Excellence in Teaching and Research"
   },
   {
-    image: "/assets/coursel1.jpeg",
+    image: "./assets/coursel1.jpeg",
     title: "University Leading towards Success",
     subtitle: "Empowering Students for the Future"
   }

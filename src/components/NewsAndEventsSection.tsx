@@ -8,7 +8,7 @@ const newsItems = [
     excerpt: "The President of Azad Jammu & Kashmir held a meeting with the Vice Chancellor of the University of Azad Jammu & Kashmir at the President’s House today. During the meeting, matters related to higher education, ongoing academic initiatives, and future development projects of the university were discussed in detail. The President appreciated the efforts being made to strengthen the academic and administrative framework of the institution, emphasizing the importance of quality education for the region’s progress. The Vice Chancellor briefed the President on recent achievements, ongoing research programs, and priority areas requiring government support. Both sides reaffirmed their commitment to enhancing educational standards and providing better opportunities for students across Azad Jammu & Kashmir.",
     date: "November 28, 2025",
     category: "Achievement",
-    image: "/assets/news1.jpeg"
+    image: "./assets/news1.jpeg"
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const newsItems = [
     excerpt: "Participants engaged in meaningful conversation on institutional development and future academic priorities.",
     date: "November 25, 2025",
     category: "Research",
-    image: "/assets/news4.jpeg"
+    image: "./assets/news4.jpeg"
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const newsItems = [
     excerpt: "The Vice Chancellor joined community members to share key developments, new programs, and future plans of the University of Haveli.",
     date: "November 20, 2025",
     category: "Student Life",
-    image: "/assets/news5.jpeg"
+    image: "./assets/news5.jpeg"
   }
 ];
 

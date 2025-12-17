@@ -36,7 +36,7 @@ export function ResearchSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-12">
           <div className="rounded-2xl overflow-hidden shadow-xl">
             <ImageWithFallback
-              src="/assets/research2.jpeg"
+              src="./assets/research2.jpeg"
               alt="Research Lab"
               className="w-full h-[400px] object-cover"
             />

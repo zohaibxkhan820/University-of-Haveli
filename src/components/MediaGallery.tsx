@@ -5,37 +5,37 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 const galleryImages = [
   {
     id: 1,
-    src: "/assets/media1.jpeg",
+    src: "./assets/media1.jpeg",
     title: "Library"
   },
   {
     id: 2,
-    src: "/assets/media2.jpeg",
+    src: "./assets/media2.jpeg",
     title: "Students"
   },
   {
     id: 3,
-    src: "/assets/media3.jpeg",
+    src: "./assets/media3.jpeg",
     title: "Laboratory"
   },
   {
     id: 4,
-    src: "/assets/media4.jpeg",
+    src: "./assets/media4.jpeg",
     title: "Sports"
   },
   {
     id: 5,
-    src: "/assets/media5.jpeg",
+    src: "./assets/media5.jpeg",
     title: "Ceremony"
   },
   {
     id: 6,
-    src: "/assets/media6.jpeg",
+    src: "./assets/media6.jpeg",
     title: "Campus"
   },
   {
     id: 7,
-    src: "/assets/media7.jpeg",
+    src: "./assets/media7.jpeg",
     title: "Aerial View"
   }
 ];

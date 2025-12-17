@@ -11,7 +11,7 @@ export function LeadershipMessages() {
               <div className="relative flex-shrink-0">
                 <div className="w-32 h-32 rounded-xl overflow-hidden shadow-xl">
                   <img
-                    src="/assets/Chancellor.jpg"
+                    src="./assets/Chancellor.jpg"
                     alt="Chancellor"
                     className="w-full h-full object-cover"
                   />
@@ -51,7 +51,7 @@ export function LeadershipMessages() {
               <div className="relative flex-shrink-0">
                 <div className="w-32 h-32 rounded-xl overflow-hidden shadow-xl">
                   <img
-                    src="/assets/VC.jpeg"
+                    src="./assets/VC.jpeg"
                     alt="Vice Chancellor"
                     className="w-full h-full object-cover"
                   />
